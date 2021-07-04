@@ -46,6 +46,11 @@ body {
   a:hover {
     color: #eaf6f6;
   }
+
+  .card {
+      width: 300px;
+      height: 100px;
+  }
   
   .top-container {
     background-color: #e4f9f5;
