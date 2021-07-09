@@ -13,7 +13,7 @@ body {
   }
   
   h2 {
-    color: #66bfbf;
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
@@ -56,18 +56,49 @@ body {
   }
   
   .middle-container {
-    margin: 100px 0;
-  }
+    margin: 100px 0;  
+}
+
+.skills {
+  background-color: #7FDBFF;
+}
   
   .bottom-container {
     background-color: #66bfbf;
     padding: 50px 0 20px;
   }
   
-  .skill-row {
+  .skill-row1 {
     width: 100%;
     margin: 100px auto 100px auto;
-    text-align: left;
+    text-align: center;
+  }
+  .skill-row2 {
+    width: 100%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    background-color: #3D9970;
+  }
+  .skill-row3 {
+    width: 100%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    background-color: #85144b;
+  }
+  .skill-row4 {
+    width: 100%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    background-color: #01FF70;
+  }
+
+  .design-archives {
+    text-align: center;
+  }
+
+
+  .profile {
+    background-color: #0074D9;
   }
   
   .pro {
@@ -112,6 +143,11 @@ body {
     text-decoration: none;
   }
 
+
+  .next {
+    text-align: center;
+  }
+
 /* design cards */
   .card {
     width: 300px;
@@ -124,6 +160,7 @@ body {
     display: flex;
     flex-direction:row;
   }
+
 
 .card-columns {
 
